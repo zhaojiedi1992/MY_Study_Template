@@ -18,6 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'My_Study_Jinzita'
+short_project="jinzita"
 copyright = '2022, zhaojiedi1992@outlook.com'
 author = 'zhaojiedi1992@outlook.com'
 
@@ -76,4 +77,14 @@ html_context = {
   'github_repo': project,
   'github_version': '../edit/main/source/',
 }
+
+# robots 
 html_extra_path = ['robots.txt']
+sitemamp_url= 'https://' +short_project + "." + domain + "/sitemap.xml"
+lines = [
+  "User-agent: *",
+  "",
+  "Sitemap: "+ sitemamp_url,
+]
+with open("./robots.txt") as f :
+  f.writelines(lines)
