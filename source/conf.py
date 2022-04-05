@@ -76,3 +76,4 @@ html_context = {
   'github_repo': project,
   'github_version': '../edit/main/source/',
 }
+html_extra_path = ['robots.txt']
