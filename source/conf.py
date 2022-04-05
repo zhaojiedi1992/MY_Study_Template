@@ -80,7 +80,7 @@ html_context = {
 
 # robots 
 html_extra_path = ['robots.txt']
-sitemamp_url= 'https://' +short_project + "." + domain + "/sitemap.xml"
+sitemamp_url= 'https://' +short_project + "." + domain + "/en/latest/sitemap.xml"
 lines = [
   "User-agent: *",
   "",
