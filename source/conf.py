@@ -86,5 +86,5 @@ lines = [
   "",
   "Sitemap: "+ sitemamp_url,
 ]
-with open("./robots.txt") as f :
+with open("./robots.txt",'w') as f :
   f.writelines(lines)
